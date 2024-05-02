@@ -1,11 +1,9 @@
 import "./App.css";
-import XCountries from "./components/XCountries/XCountries";
-import Modal from "./components/Modal/Modal";
-
+import Accordian from "./components/Accordian/Accordian";
 function App() {
   return (
     <div className="App">
-      <Modal />
+      <Accordian />
     </div>
   );
 }
